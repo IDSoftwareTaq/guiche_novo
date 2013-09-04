@@ -50,7 +50,7 @@ public class nomes extends javax.swing.JFrame {
         btn_ok = new javax.swing.JButton();
         btn_cancelar = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
 
         medico1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
 
