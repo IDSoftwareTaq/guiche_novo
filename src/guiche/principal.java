@@ -76,6 +76,7 @@ public class principal extends javax.swing.JFrame {
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
 
+        setTitle("Guiche Eletrônico™ - V. 0.0.2");
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 102, 153));
         setBounds(new java.awt.Rectangle(0, 0, 1024, 768));

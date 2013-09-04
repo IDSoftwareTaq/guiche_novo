@@ -5,6 +5,7 @@
 package guiche;
 
 import java.awt.Frame;
+import java.io.Closeable;
 
 import javax.swing.JLabel;
 
@@ -50,6 +51,7 @@ public class nomes extends javax.swing.JFrame {
         btn_ok = new javax.swing.JButton();
         btn_cancelar = new javax.swing.JButton();
 
+        setTitle("Guiche Eletrônico™ - V. 0.0.2");
         setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
 
         medico1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -218,11 +220,11 @@ public class nomes extends javax.swing.JFrame {
     	
         ((principal) teste).update();
            
-
+        nomes.this.dispose();
     }                                        
 
-    public void btn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    public void btn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {        
+    	nomes.this.dispose();
     }                                        
 
     
