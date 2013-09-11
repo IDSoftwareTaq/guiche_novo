@@ -4,6 +4,8 @@
  */
 package guiche;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Tuca
@@ -43,6 +45,7 @@ public class guiche extends javax.swing.JFrame {
         setForeground(new java.awt.Color(255, 0, 102));
         setMaximizedBounds(new java.awt.Rectangle(1282, 1024, 1024, 1024));
         setResizable(false);
+        setIconImage(new ImageIcon(getClass().getResource("/icone.png")).getImage());
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cima.png"))); // NOI18N
 
