@@ -6,6 +6,8 @@ package guiche;
 
 import java.awt.Color;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Tuca
@@ -76,6 +78,7 @@ public class principal extends javax.swing.JFrame {
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
 
+        setIconImage(new ImageIcon(getClass().getResource("/icone.png")).getImage()); 
         setTitle("Guiche Eletrônico™ - V. 0.0.2");
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 102, 153));
@@ -708,35 +711,35 @@ public class principal extends javax.swing.JFrame {
 
     public static void update(){
         medic1.setText(nomes.med1);
-        medic1.setBackground(Color.BLUE);
+        //medic1.setBackground(Color.BLUE);
         medic1.setForeground(Color.BLACK);
         
         medic2.setText(nomes.med2);
-        medic2.setBackground(Color.BLUE);
+        //medic2.setBackground(Color.BLUE);
         medic2.setForeground(Color.BLACK);
         
         medic3.setText(nomes.med3);
-        medic3.setBackground(Color.BLUE);
+        //medic3.setBackground(Color.BLUE);
         medic3.setForeground(Color.BLACK);
         
         medic4.setText(nomes.med4);
-        medic4.setBackground(Color.BLUE);
+        //medic4.setBackground(Color.BLUE);
         medic4.setForeground(Color.BLACK);
         
         medic6.setText(nomes.med5);
-        medic6.setBackground(Color.BLUE);
+        //medic6.setBackground(Color.BLUE);
         medic6.setForeground(Color.BLACK);
         
         medic5.setText(nomes.med6);
-        medic5.setBackground(Color.BLUE);
+        //medic5.setBackground(Color.BLUE);
         medic5.setForeground(Color.BLACK);
         
         medic7.setText(nomes.med7);
-        medic7.setBackground(Color.BLUE);
+        //medic7.setBackground(Color.BLUE);
         medic7.setForeground(Color.BLACK);
         
     	medic8.setText(nomes.med8);
-        medic8.setBackground(Color.BLUE);
+        //medic8.setBackground(Color.BLUE);
         medic8.setForeground(Color.BLACK);
 
     }

@@ -53,7 +53,8 @@ public class nomes extends javax.swing.JFrame {
 
         setTitle("Guiche Eletrônico™ - V. 0.0.2");
         setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
-
+        setResizable(false);
+        
         medico1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
 
         medico2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
