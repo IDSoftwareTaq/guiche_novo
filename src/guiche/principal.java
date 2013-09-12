@@ -7,6 +7,7 @@ package guiche;
 import java.awt.Color;
 
 import javax.swing.ImageIcon;
+import javax.swing.border.Border;
 
 /**
  *
@@ -309,11 +310,11 @@ public class principal extends javax.swing.JFrame {
             }
         });
 
-        btn_admin.setFont(new java.awt.Font("Impact", 0, 30));
+       // btn_admin.setFont(new java.awt.Font("Impact", 0, 30));
         btn_admin.setText("Administração");
-        btn_admin.setOpaque(false);
+        //btn_admin.setOpaque(true);
         btn_admin.setContentAreaFilled(false);
-        btn_admin.setBorderPainted(false);
+       // btn_admin.setBorderPainted(true);
         btn_admin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/admin.png"))); // NOI18N
         btn_admin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -322,11 +323,11 @@ public class principal extends javax.swing.JFrame {
         });
         
         
-        btn_guiche.setFont(new java.awt.Font("Impact", 0, 30));
+        //btn_guiche.setFont(new java.awt.Font("Impact", 0, 30));
         btn_guiche.setText("Guiche");
-        btn_guiche.setOpaque(false);
+        //btn_guiche.setOpaque(false);
         btn_guiche.setContentAreaFilled(false);
-        btn_guiche.setBorderPainted(false);
+        //btn_guiche.setBorderPainted(false);
         btn_guiche.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icone.png")));
         btn_guiche.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
