@@ -154,32 +154,24 @@ public class nomes extends javax.swing.JFrame {
     	  // ATT VALORES DOS MEDICOS AOS TEXTFIELDS DA TELA PRINCIPAL   	
     	    	med1 = nomes.medico1.getText();
     	    	medico1.setText(med1);
-    	        
-    	       	med2 = nomes.medico2.getText();
+    	        med2 = nomes.medico2.getText();
     	       	medico2.setText(med2);
-    	    	
     	    	med3 = nomes.medico3.getText();
     	    	medico3.setText(med3);
-    	    	
     	    	med4 = nomes.medico4.getText();
     	    	medico4.setText(med4);
-    	    	
     	    	med5 = nomes.medico5.getText();
     	    	medico5.setText(med5);
-    	    	
     	    	med6 = nomes.medico6.getText();
     	    	medico6.setText(med6);
-    	    	
     	    	med7 = nomes.medico7.getText();
     	    	medico7.setText(med7);
-    	    	
     	    	med8 = nomes.medico8.getText();
     	    	medico8.setText(med8);
-    	    	
     	 // ATT VALORES DOS MEDICOS AOS TEXTFIELDS DA TELA PRINCIPAL   
     	    	
     	        ((principal) teste).update();
-    	           
+    	        ((guiche) teste).guiche_update();   
     	        nomes.this.dispose();
     	
     }//GEN-LAST:event_jButton1ActionPerformed
