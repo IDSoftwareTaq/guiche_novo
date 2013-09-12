@@ -4,9 +4,7 @@
  */
 package guiche;
 
-import java.awt.Color;
 import java.awt.Frame;
-import java.io.Closeable;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -31,9 +29,10 @@ public class nomes extends javax.swing.JFrame {
      */
     
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
-    public void initComponents() {
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
 
+        jLabel7 = new javax.swing.JLabel();
         medico1 = new javax.swing.JTextField();
         medico2 = new javax.swing.JTextField();
         medico3 = new javax.swing.JTextField();
@@ -50,190 +49,145 @@ public class nomes extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        btn_ok = new javax.swing.JButton();
-        btn_cancelar = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jLabel11 = new javax.swing.JLabel();
 
         setTitle("Guiche Eletrônico™ - V. 0.0.2");
         setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
         setResizable(false);
-        setBackground(Color.BLACK);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         setIconImage(new ImageIcon(getClass().getResource("/icone.png")).getImage());
-        
+
         medico1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        getContentPane().add(medico1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 190, -1));
 
         medico2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        getContentPane().add(medico2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 45, 190, -1));
 
         medico3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        getContentPane().add(medico3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 79, 190, -1));
 
         medico4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        getContentPane().add(medico4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 113, 190, -1));
 
         medico5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        getContentPane().add(medico5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 181, 190, -1));
 
         medico6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        getContentPane().add(medico6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 147, 190, -1));
 
         medico7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        getContentPane().add(medico7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 215, 190, -1));
 
         medico8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        getContentPane().add(medico8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 249, 190, -1));
 
         jLabel1.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Médico 1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 13, 78, -1));
 
         jLabel2.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Médico 2");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 47, 78, -1));
 
         jLabel3.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Médico 4");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 115, 78, -1));
 
         jLabel4.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Médico 3");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 81, 78, -1));
 
         jLabel5.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Médico 5");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 149, 78, -1));
 
         jLabel8.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Médico 6");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 183, 78, -1));
 
         jLabel9.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Médico 7");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 217, 78, -1));
 
         jLabel10.setFont(new java.awt.Font("Impact", 0, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Médico 8");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 251, 78, -1));
 
-        btn_ok.setText("OK");
-        btn_ok.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setText("OK");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_okActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(96, 288, -1, -1));
 
-        btn_cancelar.setText("Cancelar");
-        btn_cancelar.addActionListener(new java.awt.event.ActionListener() {
+        jButton2.setText("Cancelar");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btn_cancelarActionPerformed(evt);
+                jButton2ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(149, 288, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(medico1, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE)
-                    .addComponent(medico2)
-                    .addComponent(medico3)
-                    .addComponent(medico4)
-                    .addComponent(medico6)
-                    .addComponent(medico5)
-                    .addComponent(medico7)
-                    .addComponent(medico8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(96, Short.MAX_VALUE)
-                .addComponent(btn_ok)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btn_cancelar)
-                .addGap(74, 74, 74))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(medico1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(medico2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(medico3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(medico4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(medico6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(medico5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(medico7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(medico8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_ok)
-                    .addComponent(btn_cancelar))
-                .addContainerGap())
-        );
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/back.png"))); // NOI18N
+
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 300, 320));
 
         pack();
         setLocationRelativeTo(null);
-    }// </editor-fold>                        
+    }// </editor-fold>//GEN-END:initComponents
 
-    @SuppressWarnings("static-access")
-    public void btn_okActionPerformed(java.awt.event.ActionEvent evt) { 
-     
-    	
-  // ATT VALORES DOS MEDICOS AOS TEXTFIELDS DA TELA PRINCIPAL   	
-    	med1 = nomes.medico1.getText();
-    	medico1.setText(med1);
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+
         
-       	med2 = nomes.medico2.getText();
-       	medico2.setText(med2);
     	
-    	med3 = nomes.medico3.getText();
-    	medico3.setText(med3);
+    	  // ATT VALORES DOS MEDICOS AOS TEXTFIELDS DA TELA PRINCIPAL   	
+    	    	med1 = nomes.medico1.getText();
+    	    	medico1.setText(med1);
+    	        
+    	       	med2 = nomes.medico2.getText();
+    	       	medico2.setText(med2);
+    	    	
+    	    	med3 = nomes.medico3.getText();
+    	    	medico3.setText(med3);
+    	    	
+    	    	med4 = nomes.medico4.getText();
+    	    	medico4.setText(med4);
+    	    	
+    	    	med5 = nomes.medico5.getText();
+    	    	medico5.setText(med5);
+    	    	
+    	    	med6 = nomes.medico6.getText();
+    	    	medico6.setText(med6);
+    	    	
+    	    	med7 = nomes.medico7.getText();
+    	    	medico7.setText(med7);
+    	    	
+    	    	med8 = nomes.medico8.getText();
+    	    	medico8.setText(med8);
+    	    	
+    	 // ATT VALORES DOS MEDICOS AOS TEXTFIELDS DA TELA PRINCIPAL   
+    	    	
+    	        ((principal) teste).update();
+    	           
+    	        nomes.this.dispose();
     	
-    	med4 = nomes.medico4.getText();
-    	medico4.setText(med4);
-    	
-    	med5 = nomes.medico5.getText();
-    	medico5.setText(med5);
-    	
-    	med6 = nomes.medico6.getText();
-    	medico6.setText(med6);
-    	
-    	med7 = nomes.medico7.getText();
-    	medico7.setText(med7);
-    	
-    	med8 = nomes.medico8.getText();
-    	medico8.setText(med8);
-    	
- // ATT VALORES DOS MEDICOS AOS TEXTFIELDS DA TELA PRINCIPAL   
-    	
-        ((principal) teste).update();
-           
-        nomes.this.dispose();
-    }                                        
+    }//GEN-LAST:event_jButton1ActionPerformed
 
-    public void btn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {        
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
     	nomes.this.dispose();
-    }                                        
+    }//GEN-LAST:event_jButton2ActionPerformed
 
-    
-    
     /**
      * @param args the command line arguments
      */
@@ -269,19 +223,22 @@ public class nomes extends javax.swing.JFrame {
         });
     }
     
-    public javax.swing.JLabel label1;
+    private javax.swing.JLabel label1;
             
-    // Variables declaration - do not modify                     
-    public javax.swing.JButton btn_ok;
-    public javax.swing.JButton btn_cancelar;
-    public javax.swing.JLabel jLabel1;
-    public javax.swing.JLabel jLabel10;
-    public javax.swing.JLabel jLabel2;
-    public javax.swing.JLabel jLabel3;
-    public javax.swing.JLabel jLabel4;
-    public javax.swing.JLabel jLabel5;
-    public javax.swing.JLabel jLabel8;
-    public javax.swing.JLabel jLabel9;
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private static Frame teste;
     public static javax.swing.JTextField medico1;
     public static javax.swing.JTextField medico2;
     public static javax.swing.JTextField medico3;
@@ -290,8 +247,7 @@ public class nomes extends javax.swing.JFrame {
     public static javax.swing.JTextField medico6;
     public static javax.swing.JTextField medico7;
     public static javax.swing.JTextField medico8;
-    private static Frame teste;
-    // End of variables declaration                   
+    
 	public static String med1;
 	public static String med8;
 	public static String med7;
@@ -300,6 +256,5 @@ public class nomes extends javax.swing.JFrame {
 	public static String med4;
 	public static String med3;
 	public static String med2;
-
-	
+    // End of variables declaration//GEN-END:variables
 }
