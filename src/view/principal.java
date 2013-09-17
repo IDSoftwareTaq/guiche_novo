@@ -2,16 +2,20 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package guiche;
+package view;
 
 import java.awt.Color;
+import java.util.List;
 
 import javax.swing.ImageIcon;
 import javax.swing.border.Border;
 
+import model.Senha;
+import model.Sistema;
+
 /**
  *
- * @author Tuca
+ * @author Tuca Gay
  */
 public class principal extends javax.swing.JFrame {
 
@@ -112,7 +116,7 @@ public class principal extends javax.swing.JFrame {
                 jTextField19ActionPerformed(evt);
             }
         });
-
+        
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/senhasgeradas.png"))); // NOI18N
 
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/senhaschamadas.png"))); // NOI18N
@@ -334,7 +338,6 @@ public class principal extends javax.swing.JFrame {
                 btn_guicheActionPerformed(evt);
             }
         });
-
         
         medic1.setFont(new java.awt.Font("Impact", 0, 30)); // NOI18N  
         medic1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -640,64 +643,82 @@ public class principal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }                                            
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+    	System.out.println("botao 1");
+        Sistema.getInstance().gerarSenha(1);
+        updateSenhasGeradas();
     }                                        
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    	System.out.println("botao 2");
+    	Sistema.getInstance().gerarSenha(2);
+    	updateSenhasGeradas();
     }                                        
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    	System.out.println("botao 3");
     }                                        
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    	System.out.println("botao 4");
+    	Sistema.getInstance().gerarSenha(3);
+    	updateSenhasGeradas();
     }                                        
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    	System.out.println("botao 5");
+    	Sistema.getInstance().gerarSenha(7);
+    	updateSenhasGeradas();
     }                                        
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    	System.out.println("botao 6");
+    	Sistema.getInstance().gerarSenha(6);
+    	updateSenhasGeradas();
     }                                        
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    	System.out.println("botao 7");
+    	Sistema.getInstance().gerarSenha(5);
+    	updateSenhasGeradas();
     }                                        
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    	System.out.println("botao 8");
     }                                        
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-        // TODO add your handling code here:
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {
+    	Sistema.getInstance().chamarSenha(3);
+    	updateSenhasChamadas();
+        System.out.println("botao 9");
     }                                        
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {     
+    	Sistema.getInstance().chamarSenha(1);
+    	updateSenhasChamadas();
+    	System.out.println("botao 10");
     }                                         
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {
+    	Sistema.getInstance().chamarSenha(2);
+    	updateSenhasChamadas();
+    	System.out.println("botao 11");
     }                                         
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+    	System.out.println("botao 12");
     }                                         
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {
+    	Sistema.getInstance().chamarSenha(5);
+    	updateSenhasChamadas();
+    	System.out.println("botao 15");
     }                                         
 
     private void jTextField20ActionPerformed(java.awt.event.ActionEvent evt) {                                             
-        // TODO add your handling code here:
     }                                            
 
     private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {                                             
-        // TODO add your handling code here:
     }                                            
 
     private void btn_adminActionPerformed(java.awt.event.ActionEvent evt) {                                          
@@ -705,22 +726,52 @@ public class principal extends javax.swing.JFrame {
     }                                         
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+    	System.out.println("botao 16");
     }                                         
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {
+    	Sistema.getInstance().chamarSenha(6);
+    	updateSenhasChamadas();
+    	System.out.println("botao 14");
     }                                         
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        // TODO add your handling code here:
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {  
+    	Sistema.getInstance().chamarSenha(7);
+    	updateSenhasChamadas();
+    	System.out.println("botao 13");
     }                 
     
     private void btn_guicheActionPerformed(java.awt.event.ActionEvent evt) {                                           
         new guiche().setVisible(true);
     }        
     
-
+    public void updateSenhasGeradas(){
+    	jTextField19.setText(Sistema.getInstance().getSenhaGerada(0).toString());
+    	jTextField16.setText(Sistema.getInstance().getSenhaGerada(1).toString());
+    	jTextField14.setText(Sistema.getInstance().getSenhaGerada(2).toString());
+    	jTextField20.setText(Sistema.getInstance().getSenhaGerada(3).toString());
+    	jTextField15.setText(Sistema.getInstance().getSenhaGerada(4).toString());
+    }
+    
+    public void updateSenhasChamadas(){
+    	jTextField3.setText(Sistema.getInstance().getSenhaChamada(0).toString());
+    	jTextField17.setText(Sistema.getInstance().getSenhaChamada(1).toString());
+    	jTextField29.setText(Sistema.getInstance().getSenhaChamada(2).toString());
+    	jTextField18.setText(Sistema.getInstance().getSenhaChamada(3).toString());
+    	jTextField31.setText(Sistema.getInstance().getSenhaChamada(4).toString());
+    	updateGuiche();
+    }
+    
+    public void updateGuiche(){
+    	guiche.jTextField19.setText(Sistema.getInstance().getSenhaChamada(0).toString());
+    	guiche.jTextField6.setText(Sistema.getInstance().getSenhaChamada(1).toString());
+    	guiche.jTextField19.setText(Sistema.getInstance().getSenhaChamada(2).toString());
+    	guiche.jTextField11.setText(Sistema.getInstance().getSenhaChamada(3).toString());
+    	guiche.jTextField7.setText(Sistema.getInstance().getSenhaChamada(4).toString());
+    	guiche.jTextField8.setText(Sistema.getInstance().getSenhaChamada(5).toString());
+    	guiche.jTextField10.setText(Sistema.getInstance().getSenhaChamada(6).toString());
+    }
+    
     public static void update(){
     	
     	//Nomes Médicos lado esquerdo
@@ -807,7 +858,7 @@ public class principal extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new principal().setVisible(true);
-               //  new guiche().setVisible(true);
+                new guiche().setVisible(true);
             }
         });
     }

@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package guiche;
+package view;
 
 import java.awt.Color;
 
@@ -338,13 +338,13 @@ public class guiche extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
-    private javax.swing.JTextField jTextField8;
-    private javax.swing.JTextField jTextField9;
+    public static javax.swing.JTextField jTextField10;
+    public static javax.swing.JTextField jTextField11;
+    public static javax.swing.JTextField jTextField19;
+    public static javax.swing.JTextField jTextField6;
+    public static javax.swing.JTextField jTextField7;
+    public static javax.swing.JTextField jTextField8;
+    public static javax.swing.JTextField jTextField9;
     private static javax.swing.JLabel medico1_guiche;
     private static javax.swing.JLabel medico2_guiche;
     private static javax.swing.JLabel medico3_guiche;
