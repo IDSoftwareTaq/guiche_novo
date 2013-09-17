@@ -763,7 +763,7 @@ public class principal extends javax.swing.JFrame {
     }
     
     public void updateGuiche(){
-    	guiche.jTextField19.setText(Sistema.getInstance().getSenhaChamada(0).toString());
+    	guiche.jTextField9.setText(Sistema.getInstance().getSenhaChamada(0).toString());
     	guiche.jTextField6.setText(Sistema.getInstance().getSenhaChamada(1).toString());
     	guiche.jTextField19.setText(Sistema.getInstance().getSenhaChamada(2).toString());
     	guiche.jTextField11.setText(Sistema.getInstance().getSenhaChamada(3).toString());

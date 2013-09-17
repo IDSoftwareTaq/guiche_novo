@@ -100,6 +100,7 @@ public class guiche extends javax.swing.JFrame {
         });
 
         jTextField9.setEditable(false);
+       // jTextField9.setText("oi");
         jTextField9.setFont(new java.awt.Font("Impact", 0, 70)); // NOI18N
         jTextField9.setForeground(new java.awt.Color(153, 153, 153));
         jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -120,6 +121,7 @@ public class guiche extends javax.swing.JFrame {
         });
 
         jTextField11.setEditable(false);
+        
         jTextField11.setFont(new java.awt.Font("Impact", 0, 70)); // NOI18N
         jTextField11.setForeground(new java.awt.Color(153, 153, 153));
         jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
