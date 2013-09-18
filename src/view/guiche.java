@@ -42,8 +42,8 @@ public class guiche extends javax.swing.JFrame {
         jTextField10 = new javax.swing.JTextField();
         jTextField11 = new javax.swing.JTextField();
         medico1_guiche = new javax.swing.JLabel();
-        medico5_guiche = new javax.swing.JLabel();
         medico6_guiche = new javax.swing.JLabel();
+        medico5_guiche = new javax.swing.JLabel();
         medico7_guiche = new javax.swing.JLabel();
         medico4_guiche = new javax.swing.JLabel();
         medico3_guiche = new javax.swing.JLabel();
@@ -136,15 +136,15 @@ public class guiche extends javax.swing.JFrame {
         medico1_guiche.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         medico1_guiche.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        medico5_guiche.setFont(new java.awt.Font("Impact", 0, 30)); // NOI18N
-        medico5_guiche.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        medico5_guiche.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        medico5_guiche.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-
         medico6_guiche.setFont(new java.awt.Font("Impact", 0, 30)); // NOI18N
         medico6_guiche.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         medico6_guiche.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         medico6_guiche.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        medico5_guiche.setFont(new java.awt.Font("Impact", 0, 30)); // NOI18N
+        medico5_guiche.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        medico5_guiche.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        medico5_guiche.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         medico7_guiche.setFont(new java.awt.Font("Impact", 0, 30)); // NOI18N
         medico7_guiche.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -192,12 +192,12 @@ public class guiche extends javax.swing.JFrame {
                         .addGroup(layout.createSequentialGroup()
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                 .addComponent(medico2_guiche, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(medico5_guiche, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(medico6_guiche, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(layout.createSequentialGroup()
                                     .addGap(4, 4, 4)
-                                    .addComponent(medico6_guiche, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(medico5_guiche, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(medico7_guiche, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGroup(layout.createSequentialGroup()
@@ -252,8 +252,8 @@ public class guiche extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(medico1_guiche, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(medico5_guiche, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(medico6_guiche, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(medico5_guiche, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(medico7_guiche, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 250, Short.MAX_VALUE)
                 .addComponent(jLabel2))
@@ -351,8 +351,8 @@ public class guiche extends javax.swing.JFrame {
     private static javax.swing.JLabel medico2_guiche;
     private static javax.swing.JLabel medico3_guiche;
     private static javax.swing.JLabel medico4_guiche;
-    private static javax.swing.JLabel medico5_guiche;
     private static javax.swing.JLabel medico6_guiche;
+    private static javax.swing.JLabel medico5_guiche;
     private static javax.swing.JLabel medico7_guiche;
     // End of variables declaration                   
 }
