@@ -1,7 +1,14 @@
 package model;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.DataLine;
+
 
 public class Sistema {
 	
@@ -103,6 +110,8 @@ public class Sistema {
 		}
 		
 		if (s != null){
+			Thread t = new Thread(new Play());
+			t.start();
 			senhasChamadas.add(0, s);
 		}
 		return s;
@@ -120,5 +129,38 @@ public class Sistema {
 			return new Senha(0);
 		}
 		return senhasChamadas.get(i);
+	}
+	
+	public void setNomes(String nome1, String nome2, String nome3, String nome4, String nome5, String nome6, String nome7, String nome8){
+		fila1.setNome(nome1);
+		fila2.setNome(nome2);
+		fila3.setNome(nome3);
+		fila4.setNome(nome4);
+		fila5.setNome(nome5);
+		fila6.setNome(nome6);
+		fila7.setNome(nome7);
+		fila8.setNome(nome8);
+	}
+	
+	private void tocaMusica(){
+		try {
+            File soundFile = new File("C:/guiche/som.wav");  
+            AudioInputStream sound = AudioSystem.getAudioInputStream(soundFile);  
+            DataLine.Info info = new DataLine.Info(Clip.class, sound.getFormat());  
+            Clip clip = (Clip) AudioSystem.getLine(info);  
+            clip.open(sound);  
+            clip.start();  
+         }catch (Exception ex){
+           ex.printStackTrace();
+         }
+	}
+
+	public class Play implements Runnable{
+
+		@Override
+		public void run() {
+			tocaMusica();
+		}
+
 	}
 }

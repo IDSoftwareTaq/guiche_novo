@@ -91,7 +91,7 @@ public class principal extends javax.swing.JFrame {
         setForeground(new java.awt.Color(0, 102, 102));
         setIconImages(null);
         setMinimumSize(new java.awt.Dimension(1282, 802));
-        setResizable(false);
+        setResizable(true);
         setIconImage(new ImageIcon(getClass().getResource("/icone.png")).getImage());
 
         jLabel1.setBackground(new java.awt.Color(0, 51, 255));
@@ -763,13 +763,24 @@ public class principal extends javax.swing.JFrame {
     }
     
     public void updateGuiche(){
-    	guiche.jTextField9.setText(Sistema.getInstance().getSenhaChamada(0).toString());
+    	guiche.jTextField19.setText(Sistema.getInstance().getSenhaChamada(0).toString());
     	guiche.jTextField6.setText(Sistema.getInstance().getSenhaChamada(1).toString());
-    	guiche.jTextField19.setText(Sistema.getInstance().getSenhaChamada(2).toString());
+    	guiche.jTextField9.setText(Sistema.getInstance().getSenhaChamada(2).toString());
     	guiche.jTextField11.setText(Sistema.getInstance().getSenhaChamada(3).toString());
     	guiche.jTextField7.setText(Sistema.getInstance().getSenhaChamada(4).toString());
     	guiche.jTextField8.setText(Sistema.getInstance().getSenhaChamada(5).toString());
     	guiche.jTextField10.setText(Sistema.getInstance().getSenhaChamada(6).toString());
+    	updateGuicheMedico();
+    }
+    
+    public void updateGuicheMedico(){
+    	 guiche.medico1_guiche.setText(Sistema.getInstance().getSenhaChamada(0).getNomeFila());
+    	 guiche.medico2_guiche.setText(Sistema.getInstance().getSenhaChamada(1).getNomeFila());
+    	 guiche.medico3_guiche.setText(Sistema.getInstance().getSenhaChamada(2).getNomeFila());
+    	 guiche.medico4_guiche.setText(Sistema.getInstance().getSenhaChamada(3).getNomeFila());
+    	 guiche.medico6_guiche.setText(Sistema.getInstance().getSenhaChamada(4).getNomeFila());
+    	 guiche.medico5_guiche.setText(Sistema.getInstance().getSenhaChamada(5).getNomeFila());
+    	 guiche.medico7_guiche.setText(Sistema.getInstance().getSenhaChamada(6).getNomeFila());
     }
     
     public static void update(){
@@ -858,6 +869,7 @@ public class principal extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new principal().setVisible(true);
+                new nomes().setVisible(true);
                 new guiche().setVisible(true);
             }
         });

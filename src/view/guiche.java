@@ -286,19 +286,6 @@ public class guiche extends javax.swing.JFrame {
     private void jTextField11ActionPerformed(java.awt.event.ActionEvent evt) {                                             
         // TODO add your handling code here:
     }                                            
-
-    
-    public static void guiche_update(){
-    	medico1_guiche.setText(nomes.med1);
-    	medico2_guiche.setText(nomes.med2);
-    	medico3_guiche.setText(nomes.med3);
-    	medico4_guiche.setText(nomes.med4);
-    	medico5_guiche.setText(nomes.med5);
-    	medico6_guiche.setText(nomes.med6);
-    	medico7_guiche.setText(nomes.med7);  	
-    }
-
-    
     
     
     /**
@@ -347,12 +334,12 @@ public class guiche extends javax.swing.JFrame {
     public static javax.swing.JTextField jTextField7;
     public static javax.swing.JTextField jTextField8;
     public static javax.swing.JTextField jTextField9;
-    private static javax.swing.JLabel medico1_guiche;
-    private static javax.swing.JLabel medico2_guiche;
-    private static javax.swing.JLabel medico3_guiche;
-    private static javax.swing.JLabel medico4_guiche;
-    private static javax.swing.JLabel medico6_guiche;
-    private static javax.swing.JLabel medico5_guiche;
-    private static javax.swing.JLabel medico7_guiche;
+    public static javax.swing.JLabel medico1_guiche;
+    public static javax.swing.JLabel medico2_guiche;
+    public static javax.swing.JLabel medico3_guiche;
+    public static javax.swing.JLabel medico4_guiche;
+    public static javax.swing.JLabel medico6_guiche;
+    public static javax.swing.JLabel medico5_guiche;
+    public static javax.swing.JLabel medico7_guiche;
     // End of variables declaration                   
 }

@@ -17,6 +17,10 @@ public class Fila {
 		return nome;
 	}
 	
+	public void setNome(String nome){
+		this.nome = nome;
+	}
+	
 	public void addSenha(Senha senha){
 		senha.setNomeFila(nome);
 		senhas.add(senha);

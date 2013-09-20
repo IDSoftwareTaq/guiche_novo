@@ -9,6 +9,8 @@ import java.awt.Frame;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
+import model.Sistema;
+
 /**
  *
  * @author Tuca
@@ -171,7 +173,8 @@ public class nomes extends javax.swing.JFrame {
     	 // ATT VALORES DOS MEDICOS AOS TEXTFIELDS DA TELA PRINCIPAL   
     	    	
     	        ((principal) teste).update();
-    	        ((guiche) teste).guiche_update();   
+    	       Sistema.getInstance().setNomes(med1, med2, med3, med4, med5, med6, med7, med8);
+    	        
     	        nomes.this.dispose();
     	
     }//GEN-LAST:event_jButton1ActionPerformed
