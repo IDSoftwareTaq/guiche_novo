@@ -91,7 +91,7 @@ public class principal extends javax.swing.JFrame {
         setForeground(new java.awt.Color(0, 102, 102));
         setIconImages(null);
         setMinimumSize(new java.awt.Dimension(1282, 802));
-        setResizable(true);
+        setResizable(false);
         setIconImage(new ImageIcon(getClass().getResource("/icone.png")).getImage());
 
         jLabel1.setBackground(new java.awt.Color(0, 51, 255));
@@ -869,8 +869,8 @@ public class principal extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new principal().setVisible(true);
-                new nomes().setVisible(true);
-                new guiche().setVisible(true);
+                //new nomes().setVisible(true);
+                //new guiche().setVisible(true);
             }
         });
     }
