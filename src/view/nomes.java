@@ -22,8 +22,21 @@ public class nomes extends javax.swing.JFrame {
      */
     public nomes() {
         initComponents();
+       initFields();
     }
-
+    
+    
+   private void initFields(){
+	   medico1.setText(Sistema.getInstance().getNome(1));
+	   medico2.setText(Sistema.getInstance().getNome(2));
+	   medico3.setText(Sistema.getInstance().getNome(3));
+	   medico4.setText(Sistema.getInstance().getNome(4));
+	   medico5.setText(Sistema.getInstance().getNome(5));
+	   medico6.setText(Sistema.getInstance().getNome(6));
+	   medico7.setText(Sistema.getInstance().getNome(7));
+	   medico8.setText(Sistema.getInstance().getNome(8));
+   }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always

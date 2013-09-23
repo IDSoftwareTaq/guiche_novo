@@ -15,7 +15,7 @@ import model.Sistema;
 
 /**
  *
- * @author Tuca Gay
+ * @author Tuca
  */
 public class principal extends javax.swing.JFrame {
 
@@ -644,75 +644,68 @@ public class principal extends javax.swing.JFrame {
     }                                            
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
-    	System.out.println("botao 1");
         Sistema.getInstance().gerarSenha(1);
         updateSenhasGeradas();
     }                                        
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    	System.out.println("botao 2");
     	Sistema.getInstance().gerarSenha(2);
     	updateSenhasGeradas();
     }                                        
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    	System.out.println("botao 3");
+    	Sistema.getInstance().gerarSenha(4);
+    	updateSenhasGeradas();
     }                                        
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    	System.out.println("botao 4");
     	Sistema.getInstance().gerarSenha(3);
     	updateSenhasGeradas();
     }                                        
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    	System.out.println("botao 5");
     	Sistema.getInstance().gerarSenha(7);
     	updateSenhasGeradas();
     }                                        
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    	System.out.println("botao 6");
     	Sistema.getInstance().gerarSenha(6);
     	updateSenhasGeradas();
     }                                        
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    	System.out.println("botao 7");
     	Sistema.getInstance().gerarSenha(5);
     	updateSenhasGeradas();
     }                                        
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-    	System.out.println("botao 8");
+    	Sistema.getInstance().gerarSenha(8);
+    	updateSenhasGeradas();
     }                                        
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {
     	Sistema.getInstance().chamarSenha(3);
     	updateSenhasChamadas();
-        System.out.println("botao 9");
     }                                        
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {     
     	Sistema.getInstance().chamarSenha(1);
     	updateSenhasChamadas();
-    	System.out.println("botao 10");
     }                                         
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {
     	Sistema.getInstance().chamarSenha(2);
     	updateSenhasChamadas();
-    	System.out.println("botao 11");
     }                                         
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-    	System.out.println("botao 12");
+    	Sistema.getInstance().chamarSenha(4);
+    	updateSenhasChamadas();
     }                                         
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {
     	Sistema.getInstance().chamarSenha(5);
     	updateSenhasChamadas();
-    	System.out.println("botao 15");
     }                                         
 
     private void jTextField20ActionPerformed(java.awt.event.ActionEvent evt) {                                             
@@ -726,19 +719,18 @@ public class principal extends javax.swing.JFrame {
     }                                         
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {                                          
-    	System.out.println("botao 16");
+    	Sistema.getInstance().chamarSenha(8);
+    	updateSenhasChamadas();
     }                                         
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {
     	Sistema.getInstance().chamarSenha(6);
     	updateSenhasChamadas();
-    	System.out.println("botao 14");
     }                                         
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {  
     	Sistema.getInstance().chamarSenha(7);
     	updateSenhasChamadas();
-    	System.out.println("botao 13");
     }                 
     
     private void btn_guicheActionPerformed(java.awt.event.ActionEvent evt) {                                           

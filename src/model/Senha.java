@@ -24,6 +24,6 @@ public class Senha {
 	
 	@Override
 	public String toString(){
-		return String.format("%03d", senha);
+		return String.format("%04d", senha);
 	}
 }

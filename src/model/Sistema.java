@@ -45,36 +45,43 @@ public class Sistema {
 	
 	public Senha gerarSenha(int fila){
 		Senha s = new Senha(senha);
-		senha++;
+		Fila f = null;
+		
 		switch (fila) {
 		case 1:
-			fila1.addSenha(s);
+			f = fila1;
 			break;
 		case 2:
-			fila2.addSenha(s);		
+			f = fila2;		
 			break;
 		case 3:
-			fila3.addSenha(s);
+			f = fila3;
 			break;
 		case 4:
-			fila4.addSenha(s);
+			f = fila4;
 			break;
 		case 5:
-			fila5.addSenha(s);
+			f = fila5;
 			break;
 		case 6:
-			fila6.addSenha(s);
+			f = fila6;
 			break;
 		case 7:
-			fila7.addSenha(s);
+			f = fila7;
 			break;
 		case 8:
-			fila8.addSenha(s);
+			f = fila8;
 			break;
 		default:
 			break;
 		}
-		senhasGeradas.add(0, s);
+		if (f != null){
+			if (!(f.getNome().equals(""))){
+				senha++;
+				f.addSenha(s);
+				senhasGeradas.add(0, s);
+			}
+		}
 		return s;
 	}
 	
@@ -162,5 +169,39 @@ public class Sistema {
 			tocaMusica();
 		}
 
+	}
+	
+	public String getNome(int fila){
+		String nome = "";
+		
+		switch (fila) {
+		case 1:
+			nome = fila1.getNome();
+			break;
+		case 2:
+			nome = fila2.getNome();		
+			break;
+		case 3:
+			nome = fila3.getNome();
+			break;
+		case 4:
+			nome = fila4.getNome();
+			break;
+		case 5:
+			nome = fila5.getNome();
+			break;
+		case 6:
+			nome = fila6.getNome();
+			break;
+		case 7:
+			nome = fila7.getNome();
+			break;
+		case 8:
+			nome = fila8.getNome();
+			break;
+		default:
+			break;
+		}
+		return nome;
 	}
 }
