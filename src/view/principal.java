@@ -804,28 +804,28 @@ public class principal extends javax.swing.JFrame {
         //Nomes Médicos lado esquerdo
         
         //Nomes Médicos lado direito
-        chama1.setText("Chamar - "+nomes.med1); 
+        chama1.setText(nomes.med1); 
         chama1.setForeground(Color.BLACK);
         
-        chama2.setText("Chamar - "+nomes.med2); 
+        chama2.setText(nomes.med2); 
         chama2.setForeground(Color.BLACK);
         
-        chama3.setText("Chamar - "+nomes.med3); 
+        chama3.setText(nomes.med3); 
         chama3.setForeground(Color.BLACK);
         
-        chama4.setText("Chamar - "+nomes.med4); 
+        chama4.setText(nomes.med4); 
         chama4.setForeground(Color.BLACK);
                 
-        chama5.setText("Chamar - "+nomes.med5); 
+        chama5.setText(nomes.med6); 
         chama5.setForeground(Color.BLACK);
                 
-        chama6.setText("Chamar - "+nomes.med6); 
+        chama6.setText(nomes.med5); 
         chama6.setForeground(Color.BLACK);
         
-        chama7.setText("Chamar - "+nomes.med7); 
+        chama7.setText(nomes.med7); 
         chama7.setForeground(Color.BLACK);
         
-        chama8.setText("Chamar - "+nomes.med8); 
+        chama8.setText(nomes.med8); 
         chama8.setForeground(Color.BLACK);
         //Nomes Médicos lado direito
     }
